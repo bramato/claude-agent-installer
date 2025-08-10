@@ -1,6 +1,6 @@
 {
   "name": "@bramatom/claude-agent-installer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CLI tool for installing and managing Claude Code agents",
   "main": "index.js",
   "bin": {
