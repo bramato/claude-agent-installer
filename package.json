@@ -1,0 +1,36 @@
+{
+  "name": "@claudecode/agent-installer",
+  "version": "1.0.0",
+  "description": "CLI tool for installing and managing Claude Code agents",
+  "main": "index.js",
+  "bin": {
+    "install-agents": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "agents",
+    "cli",
+    "installer"
+  ],
+  "author": "Marco Bramato",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.12",
+    "chalk": "^4.1.2",
+    "fs-extra": "^11.2.0",
+    "commander": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcobramato/claude-agent-installer"
+  },
+  "homepage": "https://github.com/marcobramato/claude-agent-installer#readme",
+  "preferGlobal": true
+}
