@@ -217,8 +217,9 @@ Grazie alla community di Claude Code per l'ispirazione e il feedback continuo.
 
 ### 📈 Versioni
 
+- **v1.0.2** - Correzioni README e compatibilità inquirer
+- **v1.0.1** - Fix compatibilità API inquirer
 - **v1.0.0** - Release iniziale con 10 agenti senior-level
-- Vedi [CHANGELOG.md](CHANGELOG.md) per la storia completa delle versioni
 
 ---
 
