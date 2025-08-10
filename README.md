@@ -35,7 +35,7 @@
 Installa il package globalmente usando npm:
 
 ```bash
-npm install -g @claudecode/agent-installer
+npm install -g @bramatom/claude-agent-installer
 ```
 
 ## 📖 Utilizzo
@@ -226,8 +226,8 @@ Grazie alla community di Claude Code per l'ispirazione e il feedback continuo.
 
 **Se questo tool ti è stato utile, lascia una ⭐ su GitHub!**
 
-[![npm version](https://badge.fury.io/js/@claudecode%2Fagent-installer.svg)](https://badge.fury.io/js/@claudecode%2Fagent-installer)
-[![Downloads](https://img.shields.io/npm/dm/@claudecode/agent-installer.svg)](https://npmjs.com/package/@claudecode/agent-installer)
+[![npm version](https://badge.fury.io/js/@bramatom%2Fclaude-agent-installer.svg)](https://badge.fury.io/js/@bramatom%2Fclaude-agent-installer)
+[![Downloads](https://img.shields.io/npm/dm/@bramatom/claude-agent-installer.svg)](https://npmjs.com/package/@bramatom/claude-agent-installer)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 </div>
