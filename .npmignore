@@ -1,0 +1,11 @@
+node_modules/
+.claude/
+.git/
+.gitignore
+*.log
+.DS_Store
+coverage/
+.nyc_output/
+test/
+*.test.js
+*.spec.js
