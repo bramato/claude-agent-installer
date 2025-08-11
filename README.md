@@ -39,6 +39,7 @@ npm install -g @bramatom/claude-agent-installer
    ```
 3. **Seleziona gli agenti** che vuoi installare usando il selettore multiplo interattivo
 4. **Conferma l'installazione** e gli agenti verranno copiati in `.claude/agents/`
+5. **Configurazione automatica** - Claude riceverà automaticamente le istruzioni per utilizzare gli agenti
 
 ### Verifica Status
 
@@ -58,20 +59,50 @@ install-agents list
 
 ## 🤖 Agenti Disponibili
 
-Il package include **10 agenti specializzati di livello senior** (15+ anni di esperienza):
+Il package include **15 agenti specializzati di livello senior** (15+ anni di esperienza) organizzati per dominio:
 
+### 📚 **Documentazione e Publishing**
 | Agente | Specialità | Uso Principale |
 |--------|------------|---------------|
-| 📚 **book-formatter-expert** | Senior Publishing Technology Architect | Formattazione professionale documenti e libri |
-| 📖 **documentation-expert** | Senior Technical Communication Architect | Documentazione codice e technical writing |
-| 🎨 **filament-tall-expert** | Senior TALL Stack Architect | Sviluppo admin panel Filament e TALL stack |
-| 🔧 **git-commit-expert** | Senior Git Workflow Architect | Commit messages professionali e workflow Git |
-| 🎲 **mock-data-generator** | Senior Data Architecture Specialist | Generazione dati mock realistici |
-| 📱 **react-native-expert** | Senior React Native Architect | Sviluppo app mobile cross-platform |
-| 🍎 **swift-macos-expert** | Senior Swift Language Authority | Sviluppo applicazioni macOS native |
-| 🎨 **tailwind-ui-expert** | Senior UI/UX Design Architect | Design systems e Tailwind CSS |
-| 📋 **task-planning-expert** | Senior Project Architecture Strategist | Pianificazione progetti complessi |
-| ☁️ **wrangler-mock-expert** | Senior Cloudflare Edge Computing Architect | Cloudflare Workers e edge computing |
+| 📚 **installer.docs.book-formatter** | Senior Publishing Technology Architect | Formattazione professionale libri e documenti |
+| 📖 **installer.docs.technical-writer** | Senior Technical Communication Architect | Documentazione codice e technical writing |
+
+### 💻 **Backend Development**
+| Agente | Specialità | Uso Principale |
+|--------|------------|---------------|
+| 🟢 **installer.backend.nodejs** | Senior Node.js Backend Architect | API REST/GraphQL, microservices, performance optimization |
+| 🔴 **installer.backend.php-laravel** | Senior PHP & Laravel Backend Architect | Laravel ecosystem, Eloquent, Artisan commands |
+
+### 🎨 **Frontend Development**
+| Agente | Specialità | Uso Principale |
+|--------|------------|---------------|
+| ⚛️ **installer.frontend.react** | Senior React Frontend Architect | React, TypeScript, state management, performance |
+| 🎨 **installer.frontend.tailwind-ui** | Senior UI/UX Design Architect | Design systems, Tailwind CSS, accessibilità |
+
+### 📱 **Mobile Development**
+| Agente | Specialità | Uso Principale |
+|--------|------------|---------------|
+| 📱 **installer.mobile.react-native** | Senior React Native Architect | App mobile cross-platform, navigazione |
+| 🍎 **installer.mobile.swift-macos** | Senior Swift Language Authority | Applicazioni macOS native, SwiftUI |
+
+### 🗄️ **Database e Infrastructure**
+| Agente | Specialità | Uso Principale |
+|--------|------------|---------------|
+| 🗄️ **installer.database.sql-architect** | Senior Database Architect & SQL Expert | Design DB, query optimization, performance tuning |
+| 💻 **installer.console.terminal-expert** | Senior Terminal Applications Architect | CLI tools, shell scripting, automazione |
+
+### ☁️ **Cloud e Framework Specifici**
+| Agente | Specialità | Uso Principale |
+|--------|------------|---------------|
+| ☁️ **installer.cloudflare.wrangler-dev** | Senior Cloudflare Edge Computing Architect | Workers, D1/KV/R2, edge computing |
+| 🟡 **installer.laravel.filament-tall** | Senior TALL Stack Architect | Admin panels Filament, TALL stack, multi-tenancy |
+
+### 🔧 **Development Workflow**
+| Agente | Specialità | Uso Principale |
+|--------|------------|---------------|
+| 🔧 **installer.git.commit-expert** | Senior Git Workflow Architect | Commit professionali, Gitmoji, Git workflows |
+| 🎲 **installer.testing.mock-generator** | Senior Data Architecture Specialist | Dati mock realistici, testing, prototipazione |
+| 📋 **installer.planning.task-planner** | Senior Project Architecture Strategist | Pianificazione progetti, breakdown task |
 
 ## 💻 Comandi
 
@@ -84,6 +115,7 @@ Avvia il processo interattivo di installazione agenti.
 - 🔍 Rilevamento agenti già installati
 - ✨ Creazione automatica directory mancanti
 - 📊 Riassunto dettagliato dell'installazione
+- 🤖 Configurazione automatica Claude con istruzioni complete
 
 ### `install-agents status`
 Mostra lo status corrente degli agenti installati.
@@ -116,13 +148,13 @@ install-agents install
 # Output esempio:
 # 🤖 Claude Code Agent Installer
 # 
-# 📦 Agenti disponibili: 10
-# ✅ Agenti già installati: 2
+# 📦 Agenti disponibili: 15
+# ✅ Agenti già installati: 3
 # 
 # ? Seleziona gli agenti da installare:
-# ❯ ◯ book-formatter-expert [NON INSTALLATO] - Senior Publishing Technology Architect
-#   ◯ documentation-expert [NON INSTALLATO] - Senior Technical Communication Architect
-#   ◯ filament-tall-expert [NON INSTALLATO] - Senior TALL Stack Architect
+# ❯ ◯ installer.backend.nodejs [NON INSTALLATO] - Senior Node.js Backend Architect
+#   ◯ installer.frontend.react [NON INSTALLATO] - Senior React Frontend Architect
+#   ◯ installer.docs.technical-writer [NON INSTALLATO] - Senior Technical Communication Architect
 #   ...
 ```
 
@@ -136,9 +168,9 @@ install-agents status
 # 📍 Directory corrente: /Users/marco/progetti/mia-app
 # 📂 Directory Claude: /Users/marco/progetti/mia-app/.claude
 # 
-# 📦 Agenti disponibili: 10
-# ✅ Agenti installati: 5
-# ⭕ Agenti non installati: 5
+# 📦 Agenti disponibili: 15
+# ✅ Agenti installati: 8
+# ⭕ Agenti non installati: 7
 ```
 
 ## 🛠 Sviluppo
@@ -151,9 +183,12 @@ agent-installer/
 ├── lib/
 │   └── AgentManager.js     # Logica core
 ├── agents/
-│   ├── book-formatter-expert.md
-│   ├── documentation-expert.md
-│   └── ...                 # Tutti gli agenti
+│   ├── installer.backend.nodejs.md
+│   ├── installer.frontend.react.md
+│   ├── installer.docs.technical-writer.md
+│   └── ...                 # Tutti i 15 agenti
+├── extras/
+│   └── claude-instructions.md  # Guida completa utilizzo
 ├── package.json
 └── README.md
 ```
@@ -181,10 +216,25 @@ install-agents --help
 
 ### Aggiungere Nuovi Agenti
 
-1. Crea il file `.md` dell'agente in `agents/`
+1. Crea il file `.md` dell'agente in `agents/` seguendo la naming convention: `installer.domain.specialty.md`
 2. Segui il formato standard degli agenti esistenti
-3. Aggiorna la documentazione
-4. Testa l'installazione
+3. Includi la sezione "Before Starting Any Task" con riferimento a KB.md
+4. Aggiorna la documentazione (README.md e extras/claude-instructions.md)
+5. Testa l'installazione
+
+### Struttura Standard Agente
+```markdown
+---
+name: installer.domain.specialty
+description: Descrizione expertise e casi d'uso
+color: colore
+---
+
+[Contenuto expertise senior-level...]
+
+## Before Starting Any Task
+**CRITICAL**: Always check for and read the `KB.md` file in the project root directory first...
+```
 
 ## 📄 Licenza
 
@@ -206,6 +256,13 @@ Questo progetto è sotto licenza MIT - vedi il file [LICENSE](LICENSE) per i det
 Grazie alla community di Claude Code per l'ispirazione e il feedback continuo.
 
 ### 📈 Versioni
+
+- **v2.0.0** - 🚀 **MAJOR UPDATE**: Ristrutturazione completa con 15 agenti specializzati
+  - ♻️ Nuova naming convention dominio-based (installer.domain.specialty)
+  - ✨ 5 nuovi agenti: Node.js, PHP/Laravel, React, SQL Architect, Terminal Expert
+  - 🤖 Configurazione automatica Claude post-installazione
+  - 📚 Documentazione completa e KB.md integration
+  - 🔧 Sistema di installazione completamente rinnovato
 
 - **v1.0.2** - Correzioni README e compatibilità inquirer
 - **v1.0.1** - Fix compatibilità API inquirer
