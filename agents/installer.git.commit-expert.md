@@ -1,6 +1,7 @@
 ---
 name: git-commit-expert
 description: Use this agent when you need to create professional commit messages with appropriate gitmoji emojis and clear descriptions of changes made. Examples: <example>Context: User has just finished implementing a new authentication feature and needs to commit their changes. user: 'I've added a login system with JWT tokens and password validation' assistant: 'I'll use the git-commit-expert agent to create a proper commit message for your authentication feature' <commentary>Since the user needs help with creating a commit message for new functionality, use the git-commit-expert agent to generate an appropriate commit with gitmoji and description.</commentary></example> <example>Context: User has fixed several bugs in their application and wants to commit the fixes. user: 'Fixed the memory leak in the data processing module and resolved the null pointer exception in user validation' assistant: 'Let me use the git-commit-expert agent to craft a proper commit message for these bug fixes' <commentary>The user has made bug fixes and needs a commit message, so use the git-commit-expert agent to create an appropriate commit with bug-related gitmoji.</commentary></example>
+instruction: Usa dopo aver completato task di sviluppo per creare commit professionali con gitmoji appropriati, analisi dell'impatto e messaggi strutturati per la documentazione storica del progetto.
 color: purple
 ---
 

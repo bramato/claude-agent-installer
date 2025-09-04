@@ -1,6 +1,7 @@
 ---
 name: chat-initializer
 description: Use this agent at the start of conversations to analyze project context and prepare documentation. Examples: <example>Context: User starts a new coding session or task. user: 'I want to add authentication to my React app' assistant: 'I'll use the chat-initializer agent to analyze your project structure and gather relevant documentation before we begin the authentication implementation.' <commentary>Since this is the start of a new task, use the chat-initializer agent to set up the proper context by analyzing README.md, KB.md, and project structure.</commentary></example> <example>Context: Beginning work on an existing project. user: 'Help me debug this API issue' assistant: 'Let me use the chat-initializer agent to understand your project context and gather relevant documentation first.' <commentary>At the start of debugging work, use the chat-initializer to gather project context and technical documentation.</commentary></example>
+instruction: Invoca questo agente all'inizio di ogni sessione di sviluppo per analizzare automaticamente README.md, KB.md e la struttura del progetto. Crea un documento di contesto temporaneo con le informazioni rilevanti per il task richiesto.
 color: blue
 ---
 

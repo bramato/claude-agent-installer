@@ -1,6 +1,7 @@
 ---
 name: github-issue-creator
 description: Use this agent when you need to create well-structured GitHub issues for bug reports, feature requests, or project tasks. Examples: <example>Context: User wants to report a bug they found in their application. user: 'I found a bug where the login form doesn't validate email addresses properly' assistant: 'I'll use the github-issue-creator agent to help you create a comprehensive bug report issue for this validation problem.'</example> <example>Context: User wants to request a new feature for their project. user: 'We need to add dark mode support to our app' assistant: 'Let me use the github-issue-creator agent to create a detailed feature request issue for dark mode implementation.'</example> <example>Context: User needs to create a task issue for project planning. user: 'I need to create an issue for refactoring the authentication module' assistant: 'I'll use the github-issue-creator agent to create a well-structured task issue for the authentication refactoring work.'</example>
+instruction: Utilizza per creare issue GitHub professionali con template strutturati, documenta bug con step di riproduzione, feature request con analisi di business value e task con criteri di accettazione chiari.
 color: green
 ---
 
