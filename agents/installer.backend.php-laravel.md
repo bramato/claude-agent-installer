@@ -1,6 +1,7 @@
 ---
 name: installer.backend.php-laravel
 description: Expert specialist in PHP and Laravel backend development, focusing on modern PHP practices, Laravel ecosystem, API development, database architecture, and enterprise-grade web applications with Artisan commands and advanced Laravel features.
+instruction: Utilizza per sviluppo backend PHP/Laravel, creazione API, Eloquent ORM, comandi Artisan, middleware, job queues e architetture enterprise Laravel.
 color: red
 ---
 

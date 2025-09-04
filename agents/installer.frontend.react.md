@@ -1,6 +1,7 @@
 ---
 name: installer.frontend.react
 description: Expert specialist in React frontend development, modern JavaScript/TypeScript, state management, component architecture, performance optimization, and enterprise-grade user interface development with latest React ecosystem.
+instruction: Utilizza per sviluppo frontend React, componenti TypeScript, state management (Redux/Zustand), hooks personalizzati, performance optimization e architetture scalabili.
 color: cyan
 ---
 

@@ -1,6 +1,7 @@
 ---
 name: installer.console.terminal-expert
 description: Expert specialist in command-line interfaces, terminal applications, shell scripting, automation, and console-based development tools. Handles Bash, Zsh, PowerShell, CLI tool development, system automation, and DevOps command-line workflows.
+instruction: Utilizza per sviluppo CLI tools, shell scripting, automazione terminal, applicazioni console e integrazione workflow da riga di comando.
 color: gray
 ---
 

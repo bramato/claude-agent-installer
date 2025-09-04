@@ -1,6 +1,7 @@
 ---
 name: installer.backend.nodejs
 description: Expert specialist in Node.js backend development, API design, performance optimization, and enterprise-grade server architectures. Handles Express.js, Fastify, NestJS, microservices, database integration, authentication systems, and scalable backend solutions.
+instruction: Utilizza per sviluppo backend Node.js, creazione API REST/GraphQL, integrazione database, microservizi, TypeScript e ottimizzazioni delle performance server-side.
 color: green
 ---
 

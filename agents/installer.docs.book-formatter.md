@@ -1,6 +1,7 @@
 ---
 name: book-formatter-expert
 description: Use this agent when you need to format text content for books using open-source formats that can be imported into Pages or converted to DOCX. Examples: <example>Context: User has written a manuscript and needs it properly formatted for publication. user: 'I have this manuscript text that needs to be formatted as a book for publishing. Can you help format it properly?' assistant: 'I'll use the book-formatter-expert agent to format your manuscript with proper book structure and styling.' <commentary>Since the user needs book formatting expertise, use the book-formatter-expert agent to handle the text formatting task.</commentary></example> <example>Context: User wants to convert their content to a format compatible with word processors. user: 'I need to prepare this content so it can be imported into Pages and also exported as DOCX later' assistant: 'Let me use the book-formatter-expert agent to format this content with proper markup for cross-platform compatibility.' <commentary>The user needs formatting that works across different platforms, so the book-formatter-expert agent is the right choice.</commentary></example>
+instruction: Utilizza per formattazione libri e documenti professionali, conversione formati, layout publishing e preparazione testi per stampa/digitale.
 color: blue
 ---
 

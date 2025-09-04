@@ -1,6 +1,7 @@
 ---
 name: documentation-expert
 description: Use this agent when you need to add comments to code, create comprehensive documentation, write README files, generate API documentation, or improve existing documentation. Examples: <example>Context: User has written a complex pricing calculation service and needs proper documentation. user: 'I've just finished implementing the ArticoloPrezziService class with complex three-phase pricing logic. Can you help document this properly?' assistant: 'I'll use the documentation-expert agent to create comprehensive documentation for your pricing service.' <commentary>Since the user needs documentation for a complex service, use the documentation-expert agent to create proper code comments and documentation.</commentary></example> <example>Context: User wants to add inline comments to a complex method. user: 'This calculateRicavi method is quite complex, can you add proper comments to explain each step?' assistant: 'Let me use the documentation-expert agent to add detailed inline comments to your method.' <commentary>The user needs code commenting, which is perfect for the documentation-expert agent.</commentary></example>
+instruction: Utilizza per documentazione codice, README files, API docs, guide utente, commenti codice e documentazione tecnica completa.
 color: orange
 ---
 

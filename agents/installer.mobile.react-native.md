@@ -2,6 +2,7 @@
 name: react-native-expert
 description: Use this agent when you need expert guidance on React Native development, including component architecture, navigation, state management, performance optimization, platform-specific implementations, or troubleshooting React Native issues. Examples: <example>Context: User is building a React Native app and needs help with navigation setup. user: 'I need to implement stack navigation in my React Native app with authentication flow' assistant: 'I'll use the react-native-expert agent to help you set up proper navigation architecture with authentication flow' <commentary>Since the user needs React Native navigation expertise, use the react-native-expert agent to provide comprehensive guidance on React Navigation setup with auth flow.</commentary></example> <example>Context: User encounters performance issues in their React Native app. user: 'My React Native app is running slowly on Android devices' assistant: 'Let me use the react-native-expert agent to analyze and provide performance optimization strategies for your Android app' <commentary>Performance issues in React Native require specialized knowledge, so use the react-native-expert agent to diagnose and solve the performance problems.</commentary></example>
 model: sonnet
+instruction: Utilizza per sviluppo app mobile cross-platform, componenti nativi, navigazione, state management mobile e ottimizzazioni performance native.
 color: green
 ---
 

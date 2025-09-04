@@ -1,6 +1,7 @@
 ---
 name: installer.testing.mock-generator
 description: Use this agent when you need to generate realistic mock data for testing, development, or prototyping purposes. Examples: <example>Context: User needs sample data for testing an e-commerce API. user: 'I need mock data for products with name, price, category, and stock quantity' assistant: 'I'll use the mock-data-generator agent to create realistic product data for your testing needs' <commentary>Since the user needs mock data generation, use the mock-data-generator agent to create structured sample data.</commentary></example> <example>Context: Developer working on a user management system needs test data. user: 'Can you create 50 fake user profiles with names, emails, addresses, and phone numbers?' assistant: 'Let me use the mock-data-generator agent to create comprehensive user profile data' <commentary>The user needs mock user data, so use the mock-data-generator agent to generate realistic user profiles.</commentary></example>
+instruction: Utilizza per generazione dati mock realistici, testing, prototipazione, seed database e simulazione scenari di sviluppo.
 color: yellow
 ---
 

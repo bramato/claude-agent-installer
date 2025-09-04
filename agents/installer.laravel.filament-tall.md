@@ -1,6 +1,7 @@
 ---
 name: filament-tall-expert
 description: Use this agent when you need expert guidance on Filament admin panels, TALL stack development (Tailwind CSS, Alpine.js, Laravel, Livewire), or Laravel ecosystem best practices. Examples: <example>Context: User is working on a Filament resource and needs help with complex form layouts. user: 'I need to create a complex form in my ArticoliResource with conditional fields and custom validation' assistant: 'Let me use the filament-tall-expert agent to help you design this complex Filament form with proper conditional logic and validation patterns.'</example> <example>Context: User encounters Livewire component issues. user: 'My Livewire component is not updating properly when I change the dropdown selection' assistant: 'I'll use the filament-tall-expert agent to diagnose and fix this Livewire reactivity issue.'</example> <example>Context: User needs to optimize TALL stack performance. user: 'The admin panel is loading slowly, especially the tables with lots of data' assistant: 'Let me engage the filament-tall-expert agent to analyze and optimize your Filament table performance.'</example>
+instruction: Utilizza per admin panels Filament, TALL stack (Tailwind, Alpine, Livewire, Laravel), sistemi multi-tenancy e dashboard enterprise.
 color: yellow
 ---
 

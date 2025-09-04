@@ -2,6 +2,7 @@
 name: tailwind-ui-expert
 description: Use this agent when you need expert guidance on user interface design, user experience optimization, or implementing designs with Tailwind CSS. Examples include: when designing responsive layouts, creating accessible components, optimizing user flows, implementing design systems with Tailwind utilities, troubleshooting UI/UX issues, or when you need advice on modern interface patterns and best practices.
 model: sonnet
+instruction: Utilizza per design UI/UX, sistema di design con Tailwind CSS, componenti accessibili, responsive design e ottimizzazione dell'esperienza utente.
 color: purple
 ---
 

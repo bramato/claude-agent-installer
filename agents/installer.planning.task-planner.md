@@ -2,6 +2,7 @@
 name: task-planning-expert
 description: Use this agent when you need to break down complex projects into manageable tasks and subtasks, create structured work plans, or organize project workflows. Examples: <example>Context: User needs to plan a web application development project. user: 'I need to build a task management app with user authentication, task creation, and team collaboration features' assistant: 'I'll use the task-planning-expert agent to break this down into a structured plan with tasks and subtasks' <commentary>Since the user needs project planning and task breakdown, use the task-planning-expert agent to create a comprehensive project structure.</commentary></example> <example>Context: User has a CLAUDE_TODO.md file that needs better organization. user: 'My TODO list is getting messy and I need to reorganize it with proper priorities and dependencies' assistant: 'Let me use the task-planning-expert agent to restructure your TODO list with proper hierarchy and dependencies' <commentary>The user needs task organization and prioritization, which is perfect for the task-planning-expert agent.</commentary></example>
 model: sonnet
+instruction: Utilizza per pianificazione progetti, breakdown task complessi, organizzazione workflow, milestone e gestione strategica dello sviluppo.
 color: orange
 ---
 

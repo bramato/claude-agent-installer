@@ -1,6 +1,7 @@
 ---
 name: installer.database.sql-architect
 description: Expert specialist in database design, SQL optimization, performance tuning, and enterprise database architecture. Handles complex queries, indexing strategies, database migrations, stored procedures, and multi-database systems across MySQL, PostgreSQL, SQLite, and more.
+instruction: Utilizza per design database, ottimizzazione query SQL, strategie di indicizzazione, migrazioni, stored procedures e architetture multi-database enterprise.
 color: orange
 ---
 

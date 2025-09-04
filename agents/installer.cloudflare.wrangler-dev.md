@@ -2,6 +2,7 @@
 name: wrangler-mock-expert
 description: Use this agent when you need assistance with Cloudflare Wrangler development, configuration, deployment, or when generating mock data for Workers, D1 databases, KV storage, or other Cloudflare services. Examples: <example>Context: User is setting up a new Cloudflare Worker project and needs help with wrangler configuration. user: 'I need to create a new Worker that handles API requests and stores data in D1' assistant: 'I'll use the wrangler-mock-expert agent to help you set up the Worker configuration and create appropriate mock data for testing'</example> <example>Context: User is working on a Worker project and needs realistic test data. user: 'Can you help me generate mock data for my e-commerce API endpoints?' assistant: 'Let me use the wrangler-mock-expert agent to create comprehensive mock data that matches your e-commerce use case'</example>
 model: sonnet
+instruction: Utilizza per sviluppo edge computing, Cloudflare Workers, D1 database, KV storage, R2 e applicazioni serverless distribuite.
 color: cyan
 ---
 
