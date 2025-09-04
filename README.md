@@ -59,7 +59,7 @@ install-agents list
 
 ## 🤖 Agenti Disponibili
 
-Il package include **15 agenti specializzati di livello senior** (15+ anni di esperienza) organizzati per dominio:
+Il package include **16 agenti specializzati di livello senior** (15+ anni di esperienza) organizzati per dominio:
 
 ### 📚 **Documentazione e Publishing**
 | Agente | Specialità | Uso Principale |
@@ -101,6 +101,7 @@ Il package include **15 agenti specializzati di livello senior** (15+ anni di es
 | Agente | Specialità | Uso Principale |
 |--------|------------|---------------|
 | 🔧 **installer.git.commit-expert** | Senior Git Workflow Architect | Commit professionali, Gitmoji, Git workflows |
+| 📋 **installer.git.github-issue-creator** | Senior GitHub Project Management Architect | Issue GitHub strutturati, bug reports, feature requests |
 | 🎲 **installer.testing.mock-generator** | Senior Data Architecture Specialist | Dati mock realistici, testing, prototipazione |
 | 📋 **installer.planning.task-planner** | Senior Project Architecture Strategist | Pianificazione progetti, breakdown task |
 
@@ -148,7 +149,7 @@ install-agents install
 # Output esempio:
 # 🤖 Claude Code Agent Installer
 # 
-# 📦 Agenti disponibili: 15
+# 📦 Agenti disponibili: 16
 # ✅ Agenti già installati: 3
 # 
 # ? Seleziona gli agenti da installare:
@@ -168,9 +169,9 @@ install-agents status
 # 📍 Directory corrente: /Users/marco/progetti/mia-app
 # 📂 Directory Claude: /Users/marco/progetti/mia-app/.claude
 # 
-# 📦 Agenti disponibili: 15
+# 📦 Agenti disponibili: 16
 # ✅ Agenti installati: 8
-# ⭕ Agenti non installati: 7
+# ⭕ Agenti non installati: 8
 ```
 
 ## 🛠 Sviluppo
@@ -186,7 +187,8 @@ agent-installer/
 │   ├── installer.backend.nodejs.md
 │   ├── installer.frontend.react.md
 │   ├── installer.docs.technical-writer.md
-│   └── ...                 # Tutti i 15 agenti
+│   ├── installer.git.github-issue-creator.md
+│   └── ...                 # Tutti i 16 agenti
 ├── extras/
 │   └── claude-instructions.md  # Guida completa utilizzo
 ├── package.json
@@ -257,7 +259,7 @@ Grazie alla community di Claude Code per l'ispirazione e il feedback continuo.
 
 ### 📈 Versioni
 
-- **v2.0.0** - 🚀 **MAJOR UPDATE**: Ristrutturazione completa con 15 agenti specializzati
+- **v2.0.0** - 🚀 **MAJOR UPDATE**: Ristrutturazione completa con 16 agenti specializzati
   - ♻️ Nuova naming convention dominio-based (installer.domain.specialty)
   - ✨ 5 nuovi agenti: Node.js, PHP/Laravel, React, SQL Architect, Terminal Expert
   - 🤖 Configurazione automatica Claude post-installazione
