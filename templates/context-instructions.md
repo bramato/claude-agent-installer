@@ -1,156 +1,156 @@
-# 📋 Sistema di Gestione Contesto del Progetto
+# 📋 Project Context Management System
 
-**IMPORTANTE: Prima di utilizzare qualsiasi agente, è necessario inizializzare il sistema di gestione del contesto del progetto.**
+**IMPORTANT: Before using any agent, you must initialize the project context management system.**
 
-## 🚀 Inizializzazione Contesto (OBBLIGATORIA)
+## 🚀 Context Initialization (MANDATORY)
 
-### 1. **Creazione Struttura Base**
+### 1. **Create Base Structure**
 
-Crea la seguente struttura di directory nella root del progetto:
+Create the following directory structure in the project root:
 
 ```bash
 mkdir -p .mcp/doc/{project,frameworks,apis,knowledge,templates}
 ```
 
-### 2. **File di Contesto Principale**
+### 2. **Main Context File**
 
-Crea il file `.mcp/doc/context_main.md` con la seguente struttura:
+Create the `.mcp/doc/context_main.md` file with the following structure:
 
 ```markdown
-# 🎯 Contesto Principale del Progetto
+# 🎯 Main Project Context
 
-**Data ultimo aggiornamento:** [INSERIRE_DATA]
-**Versione contesto:** 1.0
+**Last update date:** [INSERT_DATE]
+**Context version:** 1.0
 
-## 📋 Indice Contesti
+## 📋 Context Index
 
-### 🏗️ Progetto
-- [Struttura Progetto](./project/structure.md)
-- [Configurazioni](./project/config.md)
-- [Dipendenze](./project/dependencies.md)
+### 🏗️ Project
+- [Project Structure](./project/structure.md)
+- [Configurations](./project/config.md)
+- [Dependencies](./project/dependencies.md)
 
-### 🔧 Framework e Tecnologie
-- [Framework Principali](./frameworks/main.md)
-- [Librerie Utilizzate](./frameworks/libraries.md)
-- [Versioni e Compatibilità](./frameworks/versions.md)
+### 🔧 Frameworks and Technologies
+- [Main Frameworks](./frameworks/main.md)
+- [Used Libraries](./frameworks/libraries.md)
+- [Versions and Compatibility](./frameworks/versions.md)
 
-### 🌐 API e Servizi
-- [API Interne](./apis/internal.md)
-- [Servizi Esterni](./apis/external.md)
-- [Documentazione API](./apis/documentation.md)
+### 🌐 APIs and Services
+- [Internal APIs](./apis/internal.md)
+- [External Services](./apis/external.md)
+- [API Documentation](./apis/documentation.md)
 
 ### 📚 Knowledge Base
-- [Convenzioni Codice](./knowledge/conventions.md)
-- [Pattern Architetturali](./knowledge/patterns.md)
+- [Code Conventions](./knowledge/conventions.md)
+- [Architectural Patterns](./knowledge/patterns.md)
 - [Best Practices](./knowledge/best_practices.md)
 
-## 🎯 Istruzioni per gli Agenti
+## 🎯 Instructions for Agents
 
-**REGOLA FONDAMENTALE:** Tutti gli agenti devono:
+**FUNDAMENTAL RULE:** All agents must:
 
-1. **Leggere sempre il contesto** prima di iniziare qualsiasi task
-2. **Consultare i file specifici** per il dominio di competenza
-3. **Aggiornare il contesto** quando necessario
-4. **Mantenere la consistenza** con le convenzioni esistenti
+1. **Always read the context** before starting any task
+2. **Consult specific files** for their domain of expertise
+3. **Update the context** when necessary
+4. **Maintain consistency** with existing conventions
 
-## 🔄 Aggiornamento Contesto
+## 🔄 Context Updates
 
-Per aggiornare o estendere il contesto, utilizzare l'agente **installer.workflow.context-manager** che può:
-- Analizzare documentazione web aggiornata
-- Creare nuovi file di contesto atomici
-- Integrare nuove tecnologie nel contesto esistente
-- Mantenere la coerenza tra tutti i file di contesto
+To update or extend the context, use the **installer.workflow.context-manager** agent which can:
+- Analyze updated web documentation
+- Create new atomic context files
+- Integrate new technologies into existing context
+- Maintain coherence across all context files
 ```
 
-### 3. **Template File Base**
+### 3. **Base File Templates**
 
-Crea i seguenti template di base:
+Create the following base templates:
 
 #### `.mcp/doc/project/structure.md`
 ```markdown
-# 📁 Struttura del Progetto
+# 📁 Project Structure
 
-[DESCRIZIONE ARCHITETTURA PROGETTO]
+[PROJECT ARCHITECTURE DESCRIPTION]
 
-## Directory Principali
-- `/src/` - Codice sorgente principale
+## Main Directories
+- `/src/` - Main source code
 - `/tests/` - Test suite
-- `/docs/` - Documentazione
-- `/config/` - File di configurazione
+- `/docs/` - Documentation
+- `/config/` - Configuration files
 
-## Pattern Architetturale
-[INSERIRE PATTERN UTILIZZATO]
+## Architectural Pattern
+[INSERT USED PATTERN]
 
-## Note Specifiche
-[INSERIRE NOTE SPECIFICHE DEL PROGETTO]
+## Specific Notes
+[INSERT PROJECT SPECIFIC NOTES]
 ```
 
 #### `.mcp/doc/frameworks/main.md`
 ```markdown
-# 🔧 Framework Principali
+# 🔧 Main Frameworks
 
-## Framework Primario
-**Nome:** [INSERIRE_FRAMEWORK]
-**Versione:** [INSERIRE_VERSIONE]
-**Documentazione:** [INSERIRE_LINK]
+## Primary Framework
+**Name:** [INSERT_FRAMEWORK]
+**Version:** [INSERT_VERSION]
+**Documentation:** [INSERT_LINK]
 
-## Configurazioni Specifiche
-[INSERIRE CONFIGURAZIONI]
+## Specific Configurations
+[INSERT CONFIGURATIONS]
 
-## Convenzioni Framework
-[INSERIRE CONVENZIONI]
+## Framework Conventions
+[INSERT CONVENTIONS]
 ```
 
 #### `.mcp/doc/knowledge/conventions.md`
 ```markdown
-# 📝 Convenzioni del Codice
+# 📝 Code Conventions
 
-## Stile di Codifica
-[INSERIRE STILE]
+## Coding Style
+[INSERT STYLE]
 
 ## Naming Conventions
-[INSERIRE CONVENZIONI NAMING]
+[INSERT NAMING CONVENTIONS]
 
-## Struttura File
-[INSERIRE CONVENZIONI STRUTTURA]
+## File Structure
+[INSERT STRUCTURE CONVENTIONS]
 
-## Pattern Utilizzati
-[INSERIRE PATTERN]
+## Used Patterns
+[INSERT PATTERNS]
 ```
 
-## ⚡ Workflow Raccomandato
+## ⚡ Recommended Workflow
 
-### Per Ogni Sessione di Sviluppo:
+### For Each Development Session:
 
-1. **Inizializza contesto** (se non fatto)
-2. **Consulta context_main.md** per panoramica
-3. **Leggi file specifici** per il task
-4. **Utilizza agenti specializzati** con contesto
-5. **Aggiorna contesto** se necessario
+1. **Initialize context** (if not done)
+2. **Consult context_main.md** for overview
+3. **Read specific files** for the task
+4. **Use specialized agents** with context
+5. **Update context** if necessary
 
-### Per Nuove Tecnologie/Framework:
+### For New Technologies/Frameworks:
 
-1. **Invoca installer.workflow.context-manager**
-2. **Specifica tecnologia da integrare**
-3. **L'agente creerà file di contesto specifici**
-4. **Aggiornamento automatico context_main.md**
+1. **Invoke installer.workflow.context-manager**
+2. **Specify technology to integrate**
+3. **Agent will create specific context files**
+4. **Automatic context_main.md update**
 
-## 🎯 Vantaggi del Sistema
+## 🎯 System Benefits
 
-✅ **Consistenza:** Tutti gli agenti lavorano con le stesse informazioni
-✅ **Scalabilità:** Facile aggiungere nuovi contesti
-✅ **Manutenibilità:** Informazioni organizzate atomicamente
-✅ **Efficienza:** Agenti più precisi con contesto specifico
-✅ **Collaborazione:** Team allineato sulle convenzioni
+✅ **Consistency:** All agents work with the same information
+✅ **Scalability:** Easy to add new contexts
+✅ **Maintainability:** Atomically organized information
+✅ **Efficiency:** More precise agents with specific context
+✅ **Collaboration:** Team aligned on conventions
 
-## 📋 Checklist Inizializzazione
+## 📋 Initialization Checklist
 
-- [ ] Creata struttura directory `.mcp/doc/`
-- [ ] Creato file `context_main.md`
-- [ ] Creati template base nei sotto-directory
-- [ ] Popolati file con informazioni specifiche del progetto
-- [ ] Testato accesso agli agenti con nuovo sistema
+- [ ] Created `.mcp/doc/` directory structure
+- [ ] Created `context_main.md` file
+- [ ] Created base templates in subdirectories
+- [ ] Populated files with project-specific information
+- [ ] Tested agent access with new system
 
 ---
 
-**⚠️ IMPORTANTE:** Questo sistema deve essere inizializzato PRIMA di utilizzare qualsiasi agente per garantire risultati ottimali e coerenti.
+**⚠️ IMPORTANT:** This system must be initialized BEFORE using any agent to ensure optimal and consistent results.
