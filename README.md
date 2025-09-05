@@ -59,7 +59,7 @@ install-agents list
 
 ## 🤖 Available Agents
 
-The package includes **22 senior-level specialized agents** (15+ years of experience) organized by domain:
+The package includes **23 senior-level specialized agents** (15+ years of experience) organized by domain:
 
 ### 📚 **Documentation and Publishing**
 | Agent | Specialty | Primary Use |
@@ -101,6 +101,7 @@ The package includes **22 senior-level specialized agents** (15+ years of experi
 | Agent | Specialty | Primary Use |
 |-------|-----------|-------------|
 | 🚀 **installer.workflow.chat-initializer** | Senior Project Context Analyst | Chat initialization, project context analysis, session preparation |
+| 🎯 **installer.workflow.context-manager** | Senior Context Management Specialist | Dynamic context creation, web research, atomic documentation, project knowledge management |
 | 🔧 **installer.git.commit-expert** | Senior Git Workflow Architect | Professional commits, Gitmoji, Git workflows |
 | 📋 **installer.git.github-issue-creator** | Senior GitHub Project Management Architect | Structured GitHub issues, bug reports, feature requests |
 | 🎲 **installer.testing.mock-generator** | Senior Data Architecture Specialist | Realistic mock data, testing, prototyping |

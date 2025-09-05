@@ -80,3 +80,5 @@ jspm_packages/
 # OS
 .DS_Store
 Thumbs.db
+# Claude Code project instructions
+CLAUDE.md
