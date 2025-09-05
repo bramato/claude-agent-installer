@@ -2,6 +2,13 @@
 
 <img src="https://i.postimg.cc/30Z0xhdP/logo.png" alt="Claude Agent Installer Logo" width="200">
 
+```
+┏┓┓     ┓    ┏┓          ┳      ┓┓    
+┃ ┃┏┓┓┏┏┫┏┓  ┣┫┏┓┏┓┏┓╋┏  ┃┏┓┏╋┏┓┃┃┏┓┏┓
+┗┛┗┗┻┗┻┗┻┗   ┛┗┗┫┗ ┛┗┗┛  ┻┛┗┛┗┗┻┗┗┗ ┛ 
+                ┛                     
+```
+
 # Claude Agent Installer
 
 </div>
