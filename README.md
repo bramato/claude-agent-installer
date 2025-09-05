@@ -331,10 +331,30 @@ Thanks to the Claude Code community for continuous inspiration and feedback.
 
 <div align="center">
 
-**Se questo tool ti è stato utile, lascia una ⭐ su GitHub!**
+**If this tool has been useful to you, leave a ⭐ on GitHub!**
 
 [![npm version](https://badge.fury.io/js/@bramatom%2Fclaude-agent-installer.svg)](https://badge.fury.io/js/@bramatom%2Fclaude-agent-installer)
 [![Downloads](https://img.shields.io/npm/dm/@bramatom/claude-agent-installer.svg)](https://npmjs.com/package/@bramatom/claude-agent-installer)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+---
+
+## 🎵 Support the Developer
+
+**Love coding with chill vibes?** Support this project by listening to my developer album:
+
+### **"Code Chill: Loops of Relaxation"** 🎧
+
+*Perfect background music for your coding sessions*
+
+<div align="center">
+
+[![Listen on Apple Music](https://img.shields.io/badge/Apple_Music-000000?style=for-the-badge&logo=apple-music&logoColor=white)](https://music.apple.com/it/album/code-chill-loops-of-relaxation/1815061487)
+[![Listen on Spotify](https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](http://open.spotify.com/intl-it/album/0hBmSuyrMWpdazYTMCV0fp?go=1&nd=1&dlsi=ce8dfc8f237340e7)
+[![Listen on YouTube Music](https://img.shields.io/badge/YouTube_Music-FF0000?style=for-the-badge&logo=youtube-music&logoColor=white)](https://music.youtube.com/playlist?list=OLAK5uy_lHyFL4eHr1FAikCrvsQrPYkU3AAX4DM6k)
+
+</div>
+
+*Every stream helps support the development of free tools like this one! 🙏*
 
 </div>
